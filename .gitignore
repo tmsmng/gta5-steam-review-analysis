@@ -1,0 +1,21 @@
+# Virtuelle Python-Umgebung
+.venv/
+
+# Temporäre Python- und Jupyter-Dateien
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Lokale VS-Code-Einstellungen
+.vscode/
+
+# Betriebssystemdateien
+.DS_Store
+Thumbs.db
+
+# Rohdaten und aufbereitete Review-Texte
+data/*.jsonlines
+data/processed/*.jsonlines
+
+# Große Datei mit vollständigen Review-Texten
+results/review_topic_assignments.jsonlines
