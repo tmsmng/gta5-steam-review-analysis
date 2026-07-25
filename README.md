@@ -26,7 +26,6 @@ Die Analyse umfasst folgende Schritte:
 
 - `notebooks/` – Durchführung und Dokumentation der Analyse
 - `results/` – erzeugte Ergebnistabellen
-- `src/` – Platz für wiederverwendbaren Python-Code
 - `requirements.txt` – benötigte Python-Pakete
 
 Die Rohdaten und vollständigen Review-Texte sind nicht Bestandteil des öffentlichen Repositorys.
@@ -50,6 +49,17 @@ Benötigte Pakete installieren:
 ```powershell
 pip install -r requirements.txt
 ```
+
+## Datensatz
+
+Der verwendete Datensatz enthält englischsprachige Steam-Nutzerrezensionen zu Grand Theft Auto V.
+
+Die Rohdaten sind aus Datenschutz- und Speichergründen nicht Bestandteil dieses Repositorys. Um die Analyse auszuführen, muss die Datei unter folgendem Pfad abgelegt werden:
+
+```text
+data/Grand_Theft_Auto_V.jsonlines
+
+Quelle des Datensatzes: https://github.com/mulhod/steam_reviews/blob/master/data/Grand_Theft_Auto_V.jsonlines
 
 ## Zentrale Ergebnisse
 
