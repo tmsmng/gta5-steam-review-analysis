@@ -58,6 +58,7 @@ Die Rohdaten sind aus Datenschutz- und Speichergründen nicht Bestandteil dieses
 
 ```text
 data/Grand_Theft_Auto_V.jsonlines
+```
 
 Quelle des Datensatzes: https://github.com/mulhod/steam_reviews/blob/master/data/Grand_Theft_Auto_V.jsonlines
 
