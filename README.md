@@ -62,6 +62,17 @@ data/Grand_Theft_Auto_V.jsonlines
 
 Quelle des Datensatzes: https://github.com/mulhod/steam_reviews/blob/master/data/Grand_Theft_Auto_V.jsonlines
 
+## Ausführung der Analyse
+
+Nachdem die Rohdaten im vorgesehenen Datenordner abgelegt und die benötigten Pakete installiert wurden, sind die Notebooks in numerischer Reihenfolge auszuführen:
+
+1. `01_data_exploration.ipynb` – Exploration und Prüfung des Datensatzes
+2. `02_text_preprocessing.ipynb` – Bereinigung und Vorverarbeitung der Review-Texte
+3. `03_vectorization.ipynb` – Vektorisierung mit Bag-of-Words und TF-IDF
+4. `04_topic_modeling.ipynb` – Topic Modelling mit LDA und NMF sowie Interpretation der Ergebnisse
+
+Die Notebooks bauen inhaltlich aufeinander auf und sollten daher vollständig in dieser Reihenfolge ausgeführt werden.
+
 ## Zentrale Ergebnisse
 
 Das LDA-Modell identifizierte acht interpretierbare Themen. Dazu gehören unter anderem:
